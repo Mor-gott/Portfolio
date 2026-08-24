@@ -387,10 +387,8 @@ wordsPullUpMultiStyle(document.getElementById('about-heading'), [
   { text: 'a self-taught creator.', className: 'style-italic' },
 ]);
 
-scrollLetterReveal(
-  document.getElementById('about-body'),
-  'Skilled in Figma, Photoshop and After Effects — I’m always learning from new projects and very adaptive.'
-);
+document.getElementById('about-body').textContent =
+  'Skilled in Figma, Photoshop and After Effects — I’m always learning from new projects and very adaptive.';
 
 wordsPullUpMultiStyle(document.getElementById('features-line-1'), [
   { text: 'Featured projects', className: 'style-regular' },
