@@ -384,11 +384,11 @@ wordsPullUp(document.getElementById('hero-heading'), 'Nirush', { asterisk: true 
 
 wordsPullUpMultiStyle(document.getElementById('about-heading'), [
   { text: 'Hi! I’m Nirush Madushan,', className: 'style-regular' },
-  { text: 'a self-taught creator.', className: 'style-italic' },
+  { text: 'a self taught creator.', className: 'style-italic' },
 ]);
 
 document.getElementById('about-body').textContent =
-  'Skilled in Figma, Photoshop and After Effects — I’m always learning from new projects and very adaptive.';
+  'Skilled in Figma, Photoshop and After Effects.I’m always learning from new projects and very adaptive.';
 
 wordsPullUpMultiStyle(document.getElementById('features-line-1'), [
   { text: 'Featured projects', className: 'style-regular' },
